@@ -1,0 +1,12 @@
+CREATE DATABASE test;
+USE test;
+CREATE TABLE estacionamiento (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    auto VARCHAR(200),
+    espacios_disponibles INT
+);
+CREATE TABLE camiones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    marca VARCHAR(200),
+    placas VARCHAR(200)
+);
